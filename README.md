@@ -7,7 +7,7 @@ This subclass of UIImageView allows you to display remote images asynchronously 
 ```objective-c
 URLImageView *img = [[URLImageView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
 [img padding:2]; // add padding to borders
-[img loadURL: [NSURL URLWithString:[app_detail.images objectAtIndex:((page-1)*3+ii)]]  ];
+[img loadURL: [NSURL URLWithString:[...]];
 [subview addSubview:img];
 ```
 
